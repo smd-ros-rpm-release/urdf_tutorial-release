@@ -1,0 +1,12 @@
+Source: ros-hydro-urdf-tutorial
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-urdf
+Homepage: http://ros.org/wiki/urdf_tutorial
+Standards-Version: 3.9.2
+
+Package: ros-hydro-urdf-tutorial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-urdf
+Description: This package contains a number of URDF tutorials.
